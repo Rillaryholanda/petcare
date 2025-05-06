@@ -112,3 +112,26 @@ ul {
     margin-bottom: 40px;
     line-height: 2.2;
 }
+
+#farmacia .conteudo-farmacia {
+    align-items: center; 
+    text-align: center;  
+    padding: 80px;
+}
+
+.titulo-farmacia {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.paragrafo-farmacia {
+    margin: 35px 400px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+
+
+
