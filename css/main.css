@@ -44,12 +44,6 @@ body {
     position: relative;
 }
 
-h1, h2 {
-    font-size: 32px;
-    font-weight: 600;
-    margin-top: 32px;
-}
-
 .conteudo-inicio {
     margin-right: 40px;
     text-align: justify;
@@ -62,6 +56,9 @@ h1, h2 {
 
 .titulo-inicio {
     margin-bottom: 30px;
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 32px;
 }
 
 .botao {
@@ -71,7 +68,7 @@ h1, h2 {
     padding: 16px 32px;
     text-decoration: none;
     margin-top: 20px;
-    
+
 }
 
 .botao-transparente {
@@ -88,4 +85,30 @@ h1, h2 {
     left: 0;
     width: 100%;
     z-index: -10;
+}
+
+#clinica{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 80px 80px 24px 80px;
+    position: relative;
+}
+
+.titulo-clinica {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    margin-top: 0;
+}
+
+.paragrafo-clinica {
+    margin-bottom: 24px;
+    line-height: 1.5;
+}
+
+ul {
+    margin-left: 30px;
+    margin-bottom: 40px;
+    line-height: 2.2;
 }
