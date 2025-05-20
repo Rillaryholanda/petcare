@@ -107,7 +107,7 @@ body {
     line-height: 1.5;
 }
 
-ul {
+.lista-clinica {
     margin-left: 30px;
     margin-bottom: 40px;
     line-height: 2.2;
@@ -186,5 +186,65 @@ ul {
     overflow: 24px;
     padding: 60px 24px 10px 24px; 
 }
+
+/* FOOTER */
+.rodape {
+    background-color: #ffe3d9;
+    padding: 40px 80px 20px 80px;
+    font-size: 14px;
+    width: 100%;
+    min-height: 220px;
+}
+
+.container-rodape {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.rodape h3 {
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #263138;
+}
+
+.rodape ul {
+    list-style: none;
+    padding: 0;
+}
+
+.rodape ul li {
+    margin-bottom: 10px;
+}
+
+.coluna p {
+    margin-top: 10px;
+}
+
+.contato a {
+    color: #FF725E;
+    text-decoration: none;
+}
+
+.links a {
+    color: #263138;
+    text-decoration: none;
+}
+
+.copy {
+    text-align: center;
+    padding: 16px;
+    background-color: #263138;
+    color: #fff;
+    font-size: 14px;
+}
+
+.copy a {
+    color: #FF725E;
+    margin-left: 8px;
+    text-decoration: none;
+}
+
+
 
 
