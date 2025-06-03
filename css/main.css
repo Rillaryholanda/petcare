@@ -190,60 +190,64 @@ ul{
     margin-top: 80px;
 }
 
-/* Config da Seção Dúvidas */
-
-#duvida {
+/* Config da Seção DÚVIDAS */
+#duvidas {
     display: flex;
     align-items: center;
+    flex-direction: row;
     gap: 64px;
     padding: 80px;
 }
-
-.duvida {
+ 
+ 
+.duvidas-title{
+    margin-bottom: 50px;
+    color: #000000;
+    font-size: 32px;
+}
+ 
+.duvida{
     position: relative;
 }
-
-.duvida h3 {
-    border: 2px solid #FF725E;
-    border-radius: 8px;
+ 
+.duvida h3{
+    border: 2px solid #9A5FF5;
+    border-radius: 15px;
     padding: 24px;
-
+    color: #000000;
 }
-
-#duvida h2 {
-    margin-bottom: 25px;
-    font-size: 32px
-}
-
-.duvida img {
+ 
+.duvida img{
     position: absolute;
     top: 32px;
     right: 24px;
 }
 
-.duvida .paragrafo {
-    border-right: 1px solid #FF725E;
-    border-bottom: 1px solid #FF725E;
-    border-left: 1px solid #FF725E;
+.duvidas-img{
+    border-radius: 25px;
+    margin-top: 27px;
+}
+ 
+.duvida .paragrafo{
+    border-right: 2px solid #9A5FF5;
+    border-bottom: 2px solid #9A5FF5;
+    border-left: 2px solid #9A5FF5;
     border-radius: 0 0 8px 8px;
-    margin-top: -40px;
-    line-height: 200%;
-    margin-bottom: 64px;
-
-    /* Eventos js */
+    margin-top: -11px;
     padding: 10px 24px;
     opacity: 0;
     height: 0;
     overflow: hidden;
-    transition: .2s;
+    transition: 0.3s;
 }
-
-.duvida.ativa .paragrafo {
+ 
+.duvida.ativa .paragrafo{
     opacity: 1;
     height: fit-content;
     overflow: 24px;
-    padding: 60px 24px 10px 24px; 
+    padding: 24px 24px 10px 24px;
 }
+
 
 /* FOOTER */
 .rodape {
