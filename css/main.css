@@ -131,6 +131,32 @@ h1 strong{
     z-index: -10;
 }
 
+/* Config da Seção CLÍNICA */
+#clinica {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 80px 80px 24px 80px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+#clinica img{
+    margin-top: 50px;
+}
+
+.titulo-clinica{
+    margin-top: 50px;
+}
+
+li {
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+ul{
+    margin-bottom: 80px;
+}
 
 /* Config da Seção Dúvidas */
 
